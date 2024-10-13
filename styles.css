@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+    font-family: 'Patrick Hand', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #fff7e6;
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #ff6600;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ff6600;
+}
+
+/* Section Styles */
+section {
+    margin: 40px 0;
+}
+
+#schedule ul {
+    padding: 0;
+    list-style: none;
+}
+
+#schedule ul li {
+    background-color: #ffd966;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* Parent Resources & Announcements Section Styling */
+#resources {
+    background-color: #ffd966;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.announcements, .resources {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* Teacher Section Styling */
+#teacher {
+    background-color: #ffd966;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.teacher-info {
+    display: flex;
+    align-items: center;
+}
+
+.teacher-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.teacher-details {
+    flex-grow: 1;
+}
+
+blockquote {
+    font-style: italic;
+    color: #333333;
+    border-left: 4px solid #ff6600;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffcc00;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .gallery {
+        justify-content: center;
+    }
+
+    .gallery img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .teacher-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .teacher-photo {
+        margin: 0 0 20px 0;
+    }
+}
